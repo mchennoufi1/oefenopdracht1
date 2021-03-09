@@ -1,0 +1,42 @@
+/* Resetting default values :: this is done on elements due to resetting! */
+html, body, td, h1, h2, h3, h4, h5, h6 {
+    background-color: #f0f0f0;
+    font-family: 'verdana', sans-serif;
+}
+
+a {
+    color: #966b6b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Starting the real (class based) CSS/ styling */
+
+.footer {
+    margin-top: 50px;
+}
+
+.myTable {
+    width: 80%;
+}
+.primaryCell {
+    width: 50%;
+    vertical-align: top;
+    padding-bottom: 30px;
+}
+
+.myRow {
+    margin-top: 35px;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.not-allowed:hover {
+    text-decoration: none;
+}
+
